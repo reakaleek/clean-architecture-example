@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'cleanarchitecture'
+
+include 'entities'
+include 'usecases'
+include 'presenter'
+include 'web'
+

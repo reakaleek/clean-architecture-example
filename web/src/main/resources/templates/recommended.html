@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Insurances</title>
+</head>
+  <body>
+    <h1>Recommended Insurances</h1>
+    <ul>
+      {{#insurances}}
+      <li>
+        <article>
+          <header>
+            <h1>{{name}}e</h1>
+          </header>
+          <p>Price: {{price}}</p>
+        </article>
+      </li>
+      {{/insurances}}
+    </ul>
+
+    {{^insurances}}
+    No recommendations
+    {{/insurances}}
+
+  </body>
+</html>
